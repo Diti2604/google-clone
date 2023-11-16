@@ -24,7 +24,7 @@ router.push(`/search/web?searchTerm=${term}`)
     onSubmit={handleSubmit}
     >
       <input type="text" className="w-full focus:outline-none" value={term} onChange={(e) => setTerm(e.target.value)}
-      value={term}/>
+      />
       <RxCross2 className="text-2xl text-gray-500 cursor-pointer sm:mr-2" onClick={() => setTerm("")}/>
       <BsFillMicFill
         className="hidden sm:inline-flex text-4xl
